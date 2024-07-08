@@ -1,0 +1,188 @@
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+    .content{
+        .oeg-start {
+            .oeg-start-about {
+              padding: 31px 28px;
+              .group-btn {
+                padding: 0;
+                span {
+                  font-size: 14px;
+                }
+              }
+              .title-desc {
+                p {
+                  font-size: 20px;
+                  line-height: 24px;
+                }
+              }
+            }
+          }
+    }
+  .content {
+    .oeg-start {
+      .oeg-start-leadership {
+        .oeg-start-leadership-images {
+          .star {
+            display: none;
+          }
+          .yen {
+            right: 72%;
+            top: 0px;
+            img {
+              width: 70px;
+              height: 70px;
+            }
+          }
+          .gaming {
+            left: inherit;
+            right: 7%;
+            top: 60px;
+
+            img {
+              width: 70px;
+              height: 70px;
+            }
+          }
+          .music {
+            right: 47%;
+            top: 146px;
+          }
+          .circle-1 {
+            left: 10%;
+            top: 200px;
+
+            img {
+              width: 20px;
+              height: 20px;
+            }
+          }
+          .circle-2 {
+            left: inherit;
+            right: 4%;
+            top: 154px;
+            img {
+              width: 30px;
+              height: 30px;
+            }
+          }
+          .music {
+            right: 54%;
+            top: 218px;
+            img {
+              height: 60px;
+              width: 60px;
+            }
+          }
+          .lightning {
+            left: 44%;
+            top: 130px;
+
+            img {
+              width: 55px;
+              height: 55px;
+            }
+          }
+          .ceo {
+            left: 12%;
+            top: 90px;
+          }
+          .chairman {
+            left: 38%;
+            top: -15px;
+          }
+        }
+      }
+    }
+
+    .oeg-grid{
+        .oeg-grid-about{
+            padding:27px 34px 53px 32px;
+            .oeg-grid-btn-group{
+                a{
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+        }
+        .oeg-grid-list{
+            margin-top:18px;
+            .oeg-grid-item{
+                padding:28.5px 20px;
+            }
+        }
+    }
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .content {
+    .oeg-start {
+      .oeg-start-about {
+        .group-btn {
+          padding: 0;
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .oeg-grid{
+        .oeg-grid-list{
+            margin-top:18px;
+        }
+    }
+    .oeg-case-study{
+        padding:26px 0px;
+        h2{
+            margin-bottom:26px;
+        }
+    }
+    .oeg-trusted-partner{
+        h2{
+            font-size: 28px;
+            line-height: 28px;
+        }
+        &-group{
+          flex-direction: column;
+          .btn{
+            width: 100%;
+          }
+        }
+        footer{
+          h3{
+            margin-top:50px;
+          }
+        }
+    }
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .header {
+    .group-images {
+      img:last-child {
+        margin-left: 30px;
+      }
+    }
+  }
+  .content {
+    .oeg-start {
+      .oeg-start-about {
+        .group-btn {
+          padding: 0;
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .landing-page-title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}

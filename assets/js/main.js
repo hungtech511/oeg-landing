@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const languageLabel = document.getElementById("language-label");
-  let currentLanguage = "en";
+  let currentLanguage = localStorage.getItem('language') || 'en';
   let translations = {};
 
   // Elements to translate (make sure IDs match your HTML)
@@ -96,9 +96,23 @@ document.addEventListener("DOMContentLoaded", () => {
   // Fetch language.json and apply initial language
   fetchLanguage();
 
-  // Toggle language on click
-  document.querySelector(".change-language").addEventListener("click", () => {
-    currentLanguage = currentLanguage === "en" ? "cn" : "en";
-    applyLanguage(currentLanguage);
+  document.querySelectorAll('.select-language li').forEach(item => {
+    item.addEventListener('click', () => {
+      // Remove active class from all items
+      document.querySelectorAll('.select-language li').forEach(li => li.classList.remove('active'));
+
+      // Add active class to the clicked item
+      item.classList.add('active');
+
+      // Change the language
+      currentLanguage = item.getAttribute('data-lang');
+      applyLanguage(currentLanguage);
+
+      // Save the selected language to local storage
+      localStorage.setItem('language', currentLanguage);
+    });
   });
+
+  // Set the default active language
+  document.querySelector(`.select-language li[data-lang="${currentLanguage}"]`).classList.add('active');
 });

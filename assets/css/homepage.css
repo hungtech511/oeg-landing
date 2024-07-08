@@ -35,7 +35,7 @@
       margin-bottom: 30px;
       border-radius: 30px;
       height: 902px;
-      background: radial-gradient(
+      /* background: radial-gradient(
           64.04% 67.62% at 50% -18.18%,
           #0460ff 0%,
           rgba(0, 73, 225, 0) 100%
@@ -45,7 +45,7 @@
           #ffffff 5%,
           #8104ff 57.5%,
           rgba(0, 41, 225, 0) 100%
-        );
+        ); */
   
       .oeg-start-about {
         padding: 52px 94px 0 95px;

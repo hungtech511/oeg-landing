@@ -1,0 +1,92 @@
+{
+  "en": {
+    "header": {
+      "time": "SHANGHAI <br/> JULY 26-27. 2024"
+    },
+    "oegStart": {
+      "landingPageTitle": "OEG will be present at ChinaJoy 2024",
+      "description": "We look forward to meeting partners who are enthusiastic about and interested in the Vietnamese gaming market",
+      "b2b": "B2B - Hall W4 - B710<br/><span>Shanghai New International Expo Center</span>",
+      "hotline": "Hotline: +86 123 456 789",
+      "openInMap": "Open in Map",
+      "chatInWechat": "Chat in Wechat",
+      "meetOurLeadership": "Meet our Leadership",
+      "ceo": "CEO",
+      "chairman": "Chairman",
+      "manager": "Esports Manager"
+    },
+    "oegGrid": {
+      "oegAboutText": "<span class='fw-bold'>Ocean Entertainment Group</span> (OEG) is a pioneer in building a comprehensive online and offline Entertainment ecosystem for Gaming and eSports in Vietnam. With 100+ person team, led by experienced professionals, delivers innovative solutions and top-tier products for partners and users.",
+      "platform": "Our Platform",
+      "business": "Our Official Business Page",
+      "profile": "OEG Profile",
+      "game": "OEG Game",
+      "esports": "OEG Esports",
+      "pdfEnglish": "PDF English",
+      "pdfChinese": "PDF Chinese"
+    },
+    "oegEcosystem": {
+      "ecosystemTitle": "OEG Ecosystem",
+      "ecosystemImage": "<img src='./assets/imgs/ecosystem.png' alt='ecosystem'>"
+    },
+    "oegCaseStudy": {
+      "caseStudyTitle": "Our Case Study",
+      "caseStudyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus condimentum velit in porttitor."
+    },
+    "oegTrustedPartner": {
+      "trustedPartnerTitle": "OEG is your trusted partner in Vietnam",
+      "trustedOpenInMap": "Open in Map",
+      "trustedCallUsInChina": "Call us in China",
+      "trustedChatInWechat": "Chat in Wechat"
+    },
+    "footer": {
+        "headOffice": "OEG Head Office",
+        "address": "131 Thai Ha Street, Dong Da District, Ha Noi City, Viet Nam"
+    }
+  },
+  "cn": {
+    "header": {
+      "time": "2024年7月 26-27 <br/> 上海 "
+    },
+    "oegStart": {
+      "landingPageTitle": "OEG将出席2024年ChinaJoy展会。",
+      "description": "我们期待与对越南游戏市场充满热情和兴趣的合作伙伴见面",
+      "b2b": "B2B - Hall W4 - B710<br/> <span>上海新国际博览中心</span>",
+      "hotline": "电话：+86 123 456 789",
+      "openInMap": "地址",
+      "chatInWechat": "微信",
+      "meetOurLeadership": "管理团队",
+      "ceo": "总监",
+      "chairman": "董事长",
+      "manager": "电竞总监"
+    },
+    "oegGrid": {
+      "oegAboutText": "<span class='fw-bold'>大洋娱乐集团 (OEG)</span>是越南游戏和电竞行业线上线下娱乐生态系统建设的领先单位。由经验丰富的专业人士领导的100多人团队，为合作伙伴和用户提供创新解决方案和顶级产品。",
+      "platform": "我们平台",
+      "business": "我们的官网",
+      "profile": "OEG简介",
+      "game": "OEG游戏",
+      "esports": "OEG电子竞技",
+      "pdfEnglish": "PDF  英文",
+      "pdfChinese": "PDF  中文"
+    },
+    "oegEcosystem": {
+      "ecosystemTitle": "OEG生态系统",
+      "ecosystemImage": "<img src='./assets/imgs/ecosystem-chinese.png' alt='ecosystem'>"
+    },
+    "oegCaseStudy": {
+      "caseStudyTitle": "研究案例",
+      "caseStudyText": "2023年越南全国学生电子竞技锦标赛- 越南学生社区有史以来最大规模的电竞锦标赛，总奖金高达10亿越南盾。"
+    },
+    "oegTrustedPartner": {
+      "trustedPartnerTitle": "OEG是你的越南可靠合作伙伴",
+      "trustedOpenInMap": "地址",
+      "trustedCallUsInChina": "中国电话",
+      "trustedChatInWechat": "微信"
+    },
+    "footer": {
+        "headOffice": "OEG总部",
+        "address": "越南 河内市 栋多郡 泰河街 131号"
+    }
+  }
+}

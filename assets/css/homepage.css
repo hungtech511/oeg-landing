@@ -361,6 +361,9 @@
   letter-spacing: -0.03em;
   text-align: left;
 }
+.content .oeg-trusted-partner footer ul li p#headOffice {
+  font-size: 18px;
+}
 .content .oeg-trusted-partner footer ul li a {
   font-family: Inter;
   font-size: 18px;

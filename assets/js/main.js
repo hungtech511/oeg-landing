@@ -119,17 +119,4 @@ document.addEventListener("DOMContentLoaded", () => {
   document.querySelector(".change-language").addEventListener("click", () => {
     document.querySelector(".select-language").classList.toggle("show");
   })
-
-
-      // Select all buttons with the class 'openPdfButton'
-      const buttons = document.querySelectorAll('.oeg-grid-item-content span');
-
-      buttons.forEach(button => {
-        button.addEventListener('click', function() {
-          // Get the PDF URL from the data-pdf-url attribute
-          const pdfUrl = this.getAttribute('data-pdf-url');
-          // Open the PDF in a new window or tab
-          window.open(pdfUrl, '_blank');
-        });
-      });
 });

@@ -26,30 +26,38 @@
         width: 120px;
         background: var(--white);
         border-radius: 12px;
-        padding:4px 8px;
-        transform:translateY(10px);
+        padding: 4px 8px;
+        transform: translateY(10px);
         transition: all 0.2s ease;
+
         li {
-          color:#000;
-          padding:8px 16px;
-          border-radius:8px;
+          color: #000;
+          padding: 8px 16px;
+          border-radius: 8px;
           transition: background 0.2s ease;
-          &.active{
-            color:#8104FF;
-            font-weight:600;
+
+          &.active {
+            color: #8104FF;
+            font-weight: 600;
           }
-          &:hover{
-            background:#E5E5E5;
+
+          &:hover {
+            background: #E5E5E5;
           }
+        }
+
+        &.show {
+          opacity: 1;
+          visibility: visible;
         }
       }
 
-      &:hover{
-        .select-language{
-          opacity: 1;
-          visibility:visible;
-        }
-      }
+      // &:hover{
+      //   .select-language{
+      //     opacity: 1;
+      //     visibility:visible;
+      //   }
+      // }
     }
   }
 

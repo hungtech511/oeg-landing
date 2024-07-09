@@ -42,7 +42,7 @@
 .header nav .change-language .select-language li:hover {
   background: #E5E5E5;
 }
-.header nav .change-language:hover .select-language {
+.header nav .change-language .select-language.show {
   opacity: 1;
   visibility: visible;
 }

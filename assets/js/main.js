@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let translations = {};
 
   var swiper = new Swiper(".swiper", {
-    lazyLoading: true,
+    slidesPerView: 1,
     centeredSlides: true,
     navigation: {
       nextEl: ".next-btn",
@@ -15,6 +15,13 @@ document.addEventListener("DOMContentLoaded", () => {
       dynamicBullets: true,
     },
     spaceBetween: 11,
+    breakpoints: {
+      0: {
+        slidesPerView: "auto",
+        centeredSlides: true,
+        spaceBetween: 11,
+      }
+    },
   });
 
 

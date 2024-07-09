@@ -1,27 +1,162 @@
-/* Small devices (phones, 576px and up) */
-@media (max-width: 576px) {
-    .content{
-        .oeg-start {
-            .oeg-start-about {
-              padding: 31px 28px;
-              .group-btn {
-                padding: 0;
-                span {
-                  font-size: 14px;
-                }
-              }
-              .title-desc {
-                p {
-                  font-size: 20px;
-                  line-height: 24px;
-                }
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  .header {
+    .group-images {
+      img:last-child {
+        margin-left: 30px;
+      }
+    }
+  }
+  .content {
+    .oeg-start {
+      .oeg-start-about {
+        .group-btn {
+          padding: 0;
+          span {
+            font-size: 14px;
+          }
+        }
+        .modal-dialog{
+          margin:0;
+        }
+      }
+    }
+  }
+
+  .landing-page-title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  .content {
+    .oeg-start {
+      .oeg-start-about {
+        .group-btn {
+          padding: 0;
+          span {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+    .oeg-grid{
+        .oeg-grid-list{
+            margin-top:18px;
+        }
+    }
+    .oeg-case-study{
+      height:660px;
+        padding:26px 20px 79px 20px;
+        h2{
+            margin-bottom:26px;
+        }
+        .slider-btn{
+          display: none !important;
+        }
+
+        p{
+          margin-top:10px;
+          font-size: 18px;
+        }
+    }
+    .oeg-trusted-partner{
+        h2{
+            font-size: 28px;
+            line-height: 28px;
+        }
+        &-group{
+          flex-direction: column;
+          .btn{
+            padding:9px 36px;
+            width: 100%;
+            img{
+              width: 24px;
+              height:24px;
+            }
+          }
+        }
+        footer{
+          h3{
+            margin-top:50px;
+            font-size: 28px;
+          }
+          .footer-logo-mobile{
+            display: block;
+            width:55px;
+            height: 40px;
+          }
+          .footer-logo-pc{
+            display: none;
+          }
+          ul{
+            li{
+              font-size: 18px;
+              p,a{
+                font-size: 18px;
               }
             }
           }
+        }
     }
+
+  }
+}
+
+/* Small devices (phones, 576px and up) */
+@media (max-width: 576px) {
+  .header{
+    .logo{
+      a{
+        img{
+          width: 110px;
+          height:28px;
+        }
+      }
+    }
+    .change-language{
+      img{
+        width: 22px;
+        height: 22px;
+      }
+    }
+    &-text{
+      p{
+        font-size: 18px;
+      }
+    }
+  }
+
   .content {
     .oeg-start {
+
+      .oeg-start-about {
+        padding: 31px 28px 0px 28px;
+        .group-btn {
+          padding: 0;
+          .btn+ .btn{
+            margin-top:14px;
+          }
+          span {
+            font-size: 14px;
+          }
+        }
+        .title-desc {
+          p {
+            font-size: 20px;
+            line-height: 24px;
+          }
+        }
+      }
+
       .oeg-start-leadership {
+        h4{
+          font-size: 20px;
+        }
         .oeg-start-leadership-images {
           .star {
             display: none;
@@ -95,11 +230,16 @@
       }
     }
 
+    .mt-80{
+      margin-bottom:32px;
+    }
+
     .oeg-grid{
         .oeg-grid-about{
             padding:27px 34px 53px 32px;
             .oeg-grid-btn-group{
                 a{
+                  padding:8px 14px 8px 14px;
                     font-size: 20px;
                     line-height: 24px;
                 }
@@ -110,88 +250,41 @@
             .oeg-grid-item{
                 padding:28.5px 20px;
             }
+            .oeg-grid-item + .oeg-grid-item{
+              margin-top:18px;
+            }
         }
     }
-  }
-}
 
-/* Medium devices (tablets, 768px and up) */
-@media (max-width: 768px) {
-  .content {
-    .oeg-start {
-      .oeg-start-about {
-        .group-btn {
-          padding: 0;
-          span {
-            font-size: 14px;
-          }
-        }
+    .oeg-ecosystem{
+      h2{
+        margin-bottom:36px;
       }
-    }
-    .oeg-grid{
-        .oeg-grid-list{
-            margin-top:18px;
-        }
+      .zoom-in{
+        text-align: right;
+      }
     }
     .oeg-case-study{
-      min-height:460px;
-        padding:26px 20px 79px 20px;
-        h2{
-            margin-bottom:26px;
+      margin-bottom:68px;
+      min-height: 460px;
+      max-height: 460px;
+      height: 460px;
+      padding:26px 0px 79px 0px;
+      .swiper{
+        .list-item{
+          width: 290px !important;
+          height:165px !important;
         }
-        .slider-btn{
-          display: none !important;
-        }
+      }
 
-        p{
-          margin-top:10px;
-          font-size: 18px;
-        }
+      p.caseStudyText{
+        padding: 0 20px;
+      }
     }
     .oeg-trusted-partner{
-        h2{
-            font-size: 28px;
-            line-height: 28px;
-        }
-        &-group{
-          flex-direction: column;
-          .btn{
-            width: 100%;
-          }
-        }
-        footer{
-          h3{
-            margin-top:50px;
-          }
-        }
-    }
-  }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {
-  .header {
-    .group-images {
-      img:last-child {
-        margin-left: 30px;
+      h2{
+        margin-bottom:40px;
       }
     }
-  }
-  .content {
-    .oeg-start {
-      .oeg-start-about {
-        .group-btn {
-          padding: 0;
-          span {
-            font-size: 14px;
-          }
-        }
-      }
-    }
-  }
-
-  .landing-page-title {
-    font-size: 32px;
-    line-height: 32px;
   }
 }

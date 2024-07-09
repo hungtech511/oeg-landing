@@ -143,11 +143,8 @@
   border-radius: 999px;
   background: #000;
   position: absolute;
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-.content .oeg-start .oeg-start-leadership .oeg-start-leadership-images .image-with-text:hover span {
   opacity: 1;
+  transition: opacity 0.2s ease;
 }
 .content .oeg-start .oeg-start-leadership .oeg-start-leadership-images .image-with-text.ceo span {
   top: 27%;
@@ -239,7 +236,8 @@
   margin-bottom: 70px;
 }
 .content .oeg-case-study {
-  padding: 43px 135px;
+  position: relative;
+  padding: 43px 135px 70px 135px;
   border-radius: 30px;
   background: radial-gradient(259.9% 157.93% at 50% 0%, #ffffff 0%, #8104ff 57.5%, rgba(0, 41, 225, 0) 100%);
 }
@@ -247,57 +245,53 @@
   color: #111111;
   margin-bottom: 40px;
 }
+.content .oeg-case-study .wrapper {
+  position: relative;
+}
 .content .oeg-case-study .oeg-case-study-slider {
   position: relative;
 }
 .content .oeg-case-study .oeg-case-study-slider-list {
   margin-bottom: 40px;
 }
-.content .oeg-case-study .oeg-case-study-slider-list .list-item {
+.content .oeg-case-study .oeg-case-study-slider-list .list-item img {
   border: 5px solid #111111;
-  background: #d9d9d9;
-  width: 570px;
   border-radius: 10px;
-  margin: 0 11.5px;
+  width: 100%;
 }
-.content .oeg-case-study .oeg-case-study-slider-list .slick-dots {
-  bottom: -30px;
+.content .oeg-case-study .swiper-pagination {
+  top: inherit;
 }
-.content .oeg-case-study .oeg-case-study-slider-list .slick-dots li.slick-active button:before {
-  opacity: 1;
-  color: var(--white);
-}
-.content .oeg-case-study .oeg-case-study-slider-list .slick-dots li button:after, .content .oeg-case-study .oeg-case-study-slider-list .slick-dots li button:before {
-  color: var(--white);
-  font-size: 20px;
-}
-.content .oeg-case-study .oeg-case-study-slider-list .slider-btn {
+.content .oeg-case-study .slider-btn {
   width: 46px;
   height: 46px;
   border: 2px solid var(--neutral-50, #fafafa);
   border-radius: 50%;
   position: relative;
 }
-.content .oeg-case-study .oeg-case-study-slider-list .slider-btn i {
+.content .oeg-case-study .slider-btn i {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 18px;
 }
-.content .oeg-case-study .oeg-case-study-slider-list .prev-btn {
+.content .oeg-case-study .prev-btn {
   position: absolute;
   left: 0;
   top: 50%;
   z-index: 1;
-  transform: translate(-200%, -50%);
+  transform: translate(100%, -50%);
 }
-.content .oeg-case-study .oeg-case-study-slider-list .next-btn {
+.content .oeg-case-study .next-btn {
   position: absolute;
   right: 0;
   top: 50%;
   z-index: 1;
-  transform: translate(200%, -50%);
+  transform: translate(-100%, -50%);
+}
+.content .oeg-case-study .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: var(--white);
 }
 .content .oeg-case-study p {
   font-size: 22px;

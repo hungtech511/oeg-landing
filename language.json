@@ -30,8 +30,19 @@
       "ecosystemImage": "<img src='./assets/imgs/ecosystem.png' alt='ecosystem'>"
     },
     "oegCaseStudy": {
-      "caseStudyTitle": "Our Case Study",
-      "caseStudyText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque maximus condimentum velit in porttitor."
+      "caseStudyTitle": "Case Study",
+      "caseStudyText": {
+        "0": "National Student Cup Tournament 2023 - the largest eSports tournament ever for the Vietnamese student community with a total prize pool of up to 1 billion VND.",
+        "1": "The Viewing Party of the League of Legends World Finals exploded with emotions at OEG Stadium.",
+        "2": "Fan meeting of the reigning champion of VCS Spring 2024 - GAM Esports.",
+        "3": "More than 1000 'swordsmen' came to the Big offline game Demon Slayer Mobile.",
+        "4": "Thousands of gamers queue to check in to participate in the Viewing Party Valorant Challengers Vietnam - Split 1 event.",
+        "5": "Press conference to announce the release of Mobile Legend Bang Bang by Funtap game publisher at OEG Stadium.",
+        "6": "Big Offline celebrates the 18th birthday of the game AirRivals.",
+        "7": "Fierce and climactic 'keyfights' at the National Professional Tournament Finals of Audition League 2024.",
+        "8": "National Finals of the Metal Slug Championship.",
+        "9": "The moment of Carahouse Esports' championship at the Crossfire Vietnam League tournament at OEG Stadium."
+      }
     },
     "oegTrustedPartner": {
       "trustedPartnerTitle": "OEG is your trusted partner in Vietnam",
@@ -40,8 +51,8 @@
       "trustedChatInWechat": "Chat in Wechat"
     },
     "footer": {
-        "headOffice": "OEG Head Office",
-        "address": "131 Thai Ha Street, Dong Da District, Ha Noi City, Viet Nam"
+      "headOffice": "OEG Head Office",
+      "address": "131 Thai Ha Street, Dong Da District, Ha Noi City, Viet Nam"
     }
   },
   "cn": {
@@ -76,7 +87,18 @@
     },
     "oegCaseStudy": {
       "caseStudyTitle": "研究案例",
-      "caseStudyText": "2023年越南全国学生电子竞技锦标赛- 越南学生社区有史以来最大规模的电竞锦标赛，总奖金高达10亿越南盾。"
+      "caseStudyText": {
+        "0": "2023年越南全国学生电子竞技锦标赛- 越南学生社区有史以来最大规模的电竞锦标赛，总奖金高达10亿越南盾.",
+        "1": "英雄联盟世界总决赛观赛派对在OEG体育馆激情四溢.",
+        "2": "2024年VCS春季赛冠军-GAM Esports的粉丝见面会.",
+        "3": "超过1000名‘剑士’参加了《鬼灭之刃:火神血风谭》大型线下活动.",
+        "4": "数千位游戏玩家排队签到参加越南Valorant挑战者第一赛季的观赛派对活动.",
+        "5": "在OEG电竞场馆举行的Funtap宣布发行《Mobile Legend Bang Bang》手游发布会.",
+        "6": "庆祝《飞行队》游戏18周年生日大规模线下活动.",
+        "7": "在2024年《Audition League》全国职业赛决赛上，激烈和顶尖的对决.",
+        "8": "《合金弹头》全国总决赛.",
+        "9": "Carahouse Esports 在OEG电竞场馆赢得《穿越火线越南服手机版》比赛冠军的时刻."
+      }
     },
     "oegTrustedPartner": {
       "trustedPartnerTitle": "OEG是你的越南可靠合作伙伴",
@@ -85,8 +107,8 @@
       "trustedChatInWechat": "微信"
     },
     "footer": {
-        "headOffice": "OEG总部",
-        "address": "越南 河内市 栋多郡 泰河街 131号"
+      "headOffice": "OEG总部",
+      "address": "越南 河内市 栋多郡 泰河街 131号"
     }
   }
 }

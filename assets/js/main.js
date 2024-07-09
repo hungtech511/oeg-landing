@@ -1,7 +1,23 @@
 document.addEventListener("DOMContentLoaded", () => {
   const languageLabel = document.getElementById("language-label");
-  let currentLanguage = localStorage.getItem('language') || 'en';
+  let currentLanguage = localStorage.getItem("language") || "en";
   let translations = {};
+
+  var swiper = new Swiper(".swiper", {
+    lazyLoading: true,
+    centeredSlides: true,
+    navigation: {
+      nextEl: ".next-btn",
+      prevEl: ".prev-btn",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
+    spaceBetween: 11,
+  });
+
+
 
   // Elements to translate (make sure IDs match your HTML)
   const elementsToTranslate = {
@@ -81,6 +97,16 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     }
 
+    const caseStudyTexts = translation.oegCaseStudy.caseStudyText;
+    const pElements = document.querySelector('.caseStudyText');
+    pElements.textContent = caseStudyTexts[swiper.activeIndex];
+
+    swiper.on("slideChange", function () {
+      pElements.textContent = caseStudyTexts[swiper.activeIndex];
+    });
+
+    
+
     // Apply translations to pdf-english elements
     document.querySelectorAll(".pdf-english").forEach((element) => {
       element.textContent = translation["oegGrid"].pdfEnglish;
@@ -96,27 +122,31 @@ document.addEventListener("DOMContentLoaded", () => {
   // Fetch language.json and apply initial language
   fetchLanguage();
 
-  document.querySelectorAll('.select-language li').forEach(item => {
-    item.addEventListener('click', () => {
+  document.querySelectorAll(".select-language li").forEach((item) => {
+    item.addEventListener("click", () => {
       // Remove active class from all items
-      document.querySelectorAll('.select-language li').forEach(li => li.classList.remove('active'));
+      document
+        .querySelectorAll(".select-language li")
+        .forEach((li) => li.classList.remove("active"));
 
       // Add active class to the clicked item
-      item.classList.add('active');
+      item.classList.add("active");
 
       // Change the language
-      currentLanguage = item.getAttribute('data-lang');
+      currentLanguage = item.getAttribute("data-lang");
       applyLanguage(currentLanguage);
 
       // Save the selected language to local storage
-      localStorage.setItem('language', currentLanguage);
+      localStorage.setItem("language", currentLanguage);
     });
   });
 
   // Set the default active language
-  document.querySelector(`.select-language li[data-lang="${currentLanguage}"]`).classList.add('active');
+  document
+    .querySelector(`.select-language li[data-lang="${currentLanguage}"]`)
+    .classList.add("active");
 
   document.querySelector(".change-language").addEventListener("click", () => {
     document.querySelector(".select-language").classList.toggle("show");
-  })
+  });
 });

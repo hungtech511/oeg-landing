@@ -134,14 +134,18 @@
         }
     }
     .oeg-case-study{
-        padding:26px 0px;
+      min-height:460px;
+        padding:26px 20px 79px 20px;
         h2{
             margin-bottom:26px;
         }
-        .oeg-case-study-slider-list{
-          .slider-btn{
-            display: none !important;
-          }
+        .slider-btn{
+          display: none !important;
+        }
+
+        p{
+          margin-top:10px;
+          font-size: 18px;
         }
     }
     .oeg-trusted-partner{

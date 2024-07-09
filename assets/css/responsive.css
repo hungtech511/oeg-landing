@@ -109,6 +109,9 @@
   .content .oeg-case-study h2 {
     margin-bottom: 26px;
   }
+  .content .oeg-case-study .oeg-case-study-slider-list .slider-btn {
+    display: none !important;
+  }
   .content .oeg-trusted-partner h2 {
     font-size: 28px;
     line-height: 28px;

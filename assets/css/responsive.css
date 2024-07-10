@@ -12,6 +12,12 @@
   .content .oeg-start .oeg-start-about .modal-dialog {
     margin: 0;
   }
+  .content .oeg-grid .oeg-grid-about {
+    width: auto;
+  }
+  .content .oeg-grid .oeg-grid-list {
+    width: auto;
+  }
   .landing-page-title {
     font-size: 32px;
     line-height: 32px;
